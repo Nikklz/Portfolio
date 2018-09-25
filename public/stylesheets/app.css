@@ -1,0 +1,14 @@
+.main{
+	font-family: 'Notable', sans-serif;
+	font-family: 'Dosis', sans-serif;
+	font-weight: 800;
+	text-align: left;
+	background: #8FBC8F;
+	color: white;
+	padding: 150 150 100 200px;
+}
+.container{
+	width: 75%;
+	padding-left: 200;
+	padding-top: 50;	
+}
