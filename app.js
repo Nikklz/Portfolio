@@ -17,14 +17,9 @@ app.get("/resume", function(req,res){
 	res.render("resume");
 });
 
-app.get("/portfolio", function(req,res){
-	res.render("portfolio");
+app.get("/projects", function(req,res){
+	res.render("projects");
 });
-
-app.get("/contact", function(req,res){
-	res.render("contact");
-});
-
 
 app.listen(3000, process.env.IP, function(){
     console.log("Server has started!");
