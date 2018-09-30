@@ -20,6 +20,6 @@ app.get("/projects", function(req,res){
 	res.render("projects");
 });
 
-app.listen(process.env.IP || 3000, function(){
-    console.log("Server has started!" + process.env.IP);
+app.listen(process.env.PORT || 3000, function(){
+    console.log("Server has started!" + process.env.PORT);
 });
