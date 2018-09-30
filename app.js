@@ -13,7 +13,6 @@ app.get("/about", function(req,res){
 })
 
 app.get("/resume", function(req,res){
-	// res.sendFile(path.join(public, 'nicoleresume-page-001.jpg'))
 	res.render("resume");
 });
 
@@ -22,5 +21,5 @@ app.get("/projects", function(req,res){
 });
 
 app.listen(process.env.IP || 3000, function(){
-    console.log("Server has started!");
+    console.log("Server has started!" + process.env.IP);
 });
